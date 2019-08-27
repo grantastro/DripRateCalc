@@ -44,6 +44,10 @@ input[type="number"]:focus {
   background: #ffffe0;
 }
 
+.heading {
+  font-family: "Anton", sans-serif;
+}
+
 h1,
 h5 {
   color: #fff;
