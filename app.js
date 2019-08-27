@@ -27,9 +27,9 @@ function calculateResults() {
   console.log(calcDrip);
 
   // Compute drip rate
-  const x = Math.floor(calcAmount * calcDrip);
-  const t = Math.floor(calcHour * 60);
-  const drippy = x / t;
+  const x = Math.round(calcAmount * calcDrip);
+  const t = Math.round(calcHour * 60);
+  const drippy = Math.round(x / t)toFixed(2);
 
   if (drippy) {
     rate.value = drippy;
